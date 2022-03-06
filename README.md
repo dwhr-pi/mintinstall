@@ -30,20 +30,28 @@ The PO files in this project are imported from there.
 # Auf Debian, die Abhängigkeiten zuvor installieren.
 
 anderes Paket... wird daher nicht installiert.
-sudo apt-get install -y python3-aptdaemon
-sudo apt-get install -y aptdaemon-data
-sudo apt-get install -y python3-aptdaemon.gtk3widgets
-sudo apt-get install -y python3-bs4
-sudo apt-get install -y python3-configobj
-sudo apt-get install -y python3-setproctitle
+```
+sudo apt-get install -y python3-aptdaemon  
+sudo apt-get install -y aptdaemon-data  
+sudo apt-get install -y python3-aptdaemon.gtk3widgets  
+sudo apt-get install -y python3-bs4  
+sudo apt-get install -y python3-configobj  
+sudo apt-get install -y python3-setproctitle  
+```
 
 funktioniert
-sudo apt-get install -y gir1.2-appstream-1.0
-sudo apt-get install -y gir1.2-xapp-1.0
+```
+sudo apt-get install -y gir1.2-appstream-1.0  
+sudo apt-get install -y gir1.2-xapp-1.0  
+```
 
-nicht gefunden
-sudo apt-get install -y mint-common					https://github.com/linuxmint/mintcommon
-sudo apt-get install -y app-install-data			https://community.linuxmint.com/software/view/app-install-data
+Wird nicht gefunden
+```
+sudo apt-get install -y mint-common					https://github.com/linuxmint/mintcommon  
+sudo apt-get install -y app-install-data			https://community.linuxmint.com/software/view/app-install-data  
 sudo apt-get install -y
+```
+
+## Dann erst wie oben angegeben `mintinstall` durchführen. 
 
 sudo dpkg -i mintinstall*.deb
